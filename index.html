@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Bizfunnel</title>
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="assets/long-logo.png" alt="" srcset="" />
+        </div>
+
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >×</a
+          >
+          <a href="#Home"><i class="ri-home-5-line"></i> Home</a>
+          <a href="#about"><i class="ri-information-line"></i> About Us</a>
+          <a href="services.html"
+            ><i class="ri-pushpin-line"></i> Our Services</a
+          >
+          <a href="index.html"><i class="ri-pushpin-line"></i> Other Products</a>
+          <a href="contact.html"
+            ><i class="ri-account-box-2-fill"></i> Contact Us</a
+          >
+        </div>
+        <button class="openbtn" onclick="openNav()">☰</button>
+
+        <nav>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a id="ser" href="services.html">Services </a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="cta-button">
+          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="Home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>A apps to grow your <span>business</span></h1>
+            <p>
+              At BizFunnel, we are committed to building a website that works
+              for you, looks professional and delivers results. Whatever your
+              digital needs, from a simple but effective website right through
+              to a complete digital marketing solution, we have the right team
+              and resources to propel your business forward.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Schedule a Call</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              src="assets/hero-img.png"
+              alt="Business woman with laptop"
+              class="woman-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-intro">
+          <h2>About BizFunnel</h2>
+          <div class="intro-content">
+            <h3><span>Your Vision</span>, Our Expertise</h3>
+            <p>
+              At BizFunnel, we bring your vision to life with our expertise in
+              digital solutions. Whether it’s designing a stunning website,
+              crafting effective marketing strategies, or providing reliable
+              hosting services, we are committed to helping you achieve your
+              business goals. Our team of experts works closely with you to
+              ensure that every aspect of your digital presence aligns with your
+              vision, driving growth and success.
+            </p>
+            <a href="#contact" class="btn btn-secondary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Complete Digital Services for Your Business Growth</h2>
+        <p class="section-description">
+          At BizFunnel, you’ll find every digital service essential for growing
+          your business. From website design to hosting and marketing, our focus
+          is on ensuring your success!
+        </p>
+
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Website Development</h3>
+            <p>
+              Craft visually stunning and user-friendly websites tailored to
+              your brand. Our designs focus on responsiveness, speed, and
+              delivering a seamless experience that drives results.
+            </p>
+            <a href="#" class="read-more"
+              >Know More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fab fa-wordpress"></i>
+            </div>
+            <h3>WordPress Development</h3>
+            <p>
+              Build powerful and customizable WordPress websites with ease. From
+              theme customization to plugin integration, we deliver tailored
+              solutions for your unique business needs.
+            </p>
+            <a href="#" class="read-more"
+              >Know More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Hosting Services</h3>
+            <p>
+              Reliable and super-fast website hosting services with 99.9%
+              uptime. We handle all server maintenance so you can focus on your
+              business.Reliable and secure hosting solutions to keep your
+              website running 24/7. Enjoy fast speeds, regular backups, and
+              expert support for uninterrupted performance.
+            </p>
+            <a href="#" class="read-more"
+              >Know More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Logo Designing</h3>
+            <p>
+              Create a lasting impression with a custom logo that perfectly
+              represents your brand. Our logo designs are unique, memorable, and
+              tailored to capture the essence of your business.
+            </p>
+            <a href="#" class="read-more"
+              >Know More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <h3>Graphic Designing</h3>
+            <p>
+              Transform your brand with creative and eye-catching graphic
+              designs. From logos to marketing materials, we deliver visually
+              appealing designs that speak to your audience and enhance your
+              brand identity.
+            </p>
+            <a href="#" class="read-more"
+              >Know More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service Card 6 -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3>SEO Services</h3>
+            <p>
+              Boost your online visibility and drive organic traffic with our
+              expert SEO services. We optimize your website to rank higher on
+              search engines, ensuring more leads and better business growth.
+            </p>
+            <a href="#" class="read-more"
+              >Know More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section class="reasons">
+      <div class="container">
+        <h2>3 Reasons To Choose BizFunnel Services</h2>
+        <p class="section-description">
+          We don't just build websites; we create digital experiences that
+          transform your business into a success story.
+        </p>
+
+        <div class="reasons-grid">
+          <!-- Reason 1 -->
+          <div class="reason-card">
+            <div class="reason-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="reason-content">
+              <h3>Complete Digital Solutions</h3>
+              <p>
+                From websites to branding to marketing, we provide everything
+                you need to succeed online.
+              </p>
+            </div>
+          </div>
+
+          <!-- Reason 2 -->
+          <div class="reason-card">
+            <div class="reason-icon">
+              <i class="fas fa-hand-holding-usd"></i>
+            </div>
+            <div class="reason-content">
+              <h3>Affordable and Professional</h3>
+              <p>
+                Quality digital services without breaking the bank, tailored for
+                businesses of all sizes.
+              </p>
+            </div>
+          </div>
+
+          <!-- Reason 3 -->
+          <div class="reason-card">
+            <div class="reason-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <div class="reason-content">
+              <h3>Expert Support</h3>
+              <p>
+                Our dedicated team provides ongoing support to ensure your
+                digital assets perform at their best.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="accordion">
+          <!-- FAQ Item 1 -->
+          <div class="accordion-item">
+            <button class="accordion-button">
+              How much does it cost to build a website?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                The cost of a website depends on your specific needs and
+                requirements. We offer custom solutions tailored to your budget
+                and business goals. Contact us for a free consultation and
+                quote.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="accordion-item">
+            <button class="accordion-button">
+              Do you provide website maintenance and support?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Yes, we offer comprehensive website maintenance and support
+                packages to keep your website secure, updated, and performing at
+                its best. Our team is always available to address any issues or
+                make updates as needed.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="accordion-item">
+            <button class="accordion-button">
+              Why are your prices so affordable?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                We believe that quality digital services should be accessible to
+                businesses of all sizes. Our streamlined processes and efficient
+                team allow us to offer professional services at competitive
+                rates without compromising on quality.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="accordion-item">
+            <button class="accordion-button">
+              Do you provide website hosting?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Yes, we offer reliable website hosting services with 99.9%
+                uptime guarantee. Our hosting packages include regular backups,
+                security monitoring, and technical support to ensure your
+                website runs smoothly.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="accordion-item">
+            <button class="accordion-button">
+              Do you create custom website designs?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Absolutely! We specialize in creating custom website designs
+                that reflect your brand identity and business objectives. Our
+                designers work closely with you to create a unique and visually
+                appealing website that stands out from the competition.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="accordion-item">
+            <button class="accordion-button">
+              Why my website be mobile-friendly?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Having a mobile-friendly website is essential in today's digital
+                landscape. More than 60% of internet traffic comes from mobile
+                devices. Additionally, Google prioritizes mobile-friendly
+                websites in search results, making it crucial for your SEO
+                performance and user experience.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 7 -->
+          <div class="accordion-item">
+            <button class="accordion-button">
+              Can I add new features to my website in the future?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Yes, we design all our websites with scalability in mind. You
+                can easily add new features, pages, or functionality as your
+                business grows and your needs evolve. Our team will be available
+                to implement these changes whenever you're ready.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>Trust of Our Clients</h2>
+        <p class="section-description">
+          At BizFunnel, our clients' trust tells our effectiveness as
+          experienced service and consulting partners. We take pride in their
+          testimonials.
+        </p>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="quote">
+              "Working with BizFunnel was a great experience! They delivered an
+              excellent website on time. Their team was communicative and
+              professional throughout the entire process."
+            </p>
+            <div class="client-info">
+              <h4>Phillipspha</h4>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="quote">
+              "BizFunnel delivered beyond our expectations. They designed a logo
+              that perfectly represents our brand. We love their attention to
+              detail and quick response times. Our new website is getting great
+              reviews!"
+            </p>
+            <div class="client-info">
+              <h4>Monica</h4>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="quote">
+              "The BizFunnel team transformed our outdated website into
+              something modern, efficient, and easy to use. Our online presence
+              has improved dramatically and we're getting more leads as a
+              result."
+            </p>
+            <div class="client-info">
+              <h4>Keith</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Other Products -->
+          <div class="footer-column">
+            <h3>Other Products</h3>
+            <ul>
+              <li><a href="#">Web Hosting</a></li>
+              <li><a href="#">Domain Names</a></li>
+              <li><a href="#">SSL Certificates</a></li>
+              <li><a href="#">Email Marketing</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- Other Links -->
+          <div class="footer-column">
+            <h3>Other Links</h3>
+            <ul>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Hosting Status</a></li>
+              <li><a href="#">Uptime Guarantee</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="contact-info">
+              <li><i class="fas fa-envelope"></i> hello@bizfunnel.in</li>
+              <li><i class="fas fa-phone"></i> +91 8700145253</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>Ghaziabad, Uttar Pradesh, IN
+              </li>
+            </ul>
+            <div class="social-icons">
+              <a title="fb" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a title="tw" href="#"><i class="fab fa-twitter"></i></a>
+              <a title="insta" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 BizFunnel - All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
